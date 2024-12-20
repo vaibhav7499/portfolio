@@ -1,0 +1,107 @@
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+  }
+
+  header {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+    font-family: 'Pacifico', cursive;
+  }
+
+  header h1 {
+    font-size: 4rem;
+    margin-bottom: 10px;
+    transition: 2s;
+  }
+  header h1:hover {
+    color: skyblue;
+    font-size: 5rem;
+  }
+  header p {
+    font-family: 'Times New Roman', Times, serif;
+  }
+
+  header p {
+    font-size: 1.5rem;
+  }
+
+  .section {
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+
+  .section h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #333;
+  }
+
+  .about p, .skills p {
+    text-align: center;
+    font-size: 15px;
+    color: #666;
+    line-height: 1.8;
+  }
+
+  .skills ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+    padding: 0;
+  }
+
+  .skills li {
+    background-color: #ff6f61;
+    color: white;
+    padding: 15px 25px;
+    border-radius: 5px;
+    font-size: 0.8rem;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+    transition: all ease-in-out 0.1s;
+  }
+  .skills li:hover {
+    background-color:  #ff4939;
+  }
+
+
+  .contact a {
+    display: inline-block;
+    background-color: #ff6f61;
+    color: white;
+    text-decoration: none;
+    padding: 12px 30px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    margin: 20px auto;
+    text-align: center;
+  }
+
+  .contact a:hover {
+    background-color: #ff4939;
+  }
+
+
+  footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+  }
